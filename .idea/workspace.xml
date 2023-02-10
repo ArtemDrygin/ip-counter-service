@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be706e10-e925-4e56-949c-30ad566c7b1f" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ip/counter/IpCounterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ip/counter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ip/counter/UniqueIpCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/IpCounterServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testIps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="be706e10-e925-4e56-949c-30ad566c7b1f" name="Changes" comment=" * added IpCounterService&#10; * add simple test&#10; * added build jar configuration">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676027302095</updated>
-      <workItem from="1676027304617" duration="1893000" />
+      <workItem from="1676027304617" duration="3149000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676027344363</created>
@@ -118,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676027344363</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=" * added IpCounterService&#10; * add simple test&#10; * added build jar configuration">
+      <created>1676029528297</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676029528297</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +132,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value=" * added IpCounterService&#10; * add simple test&#10; * added build jar configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value=" * added IpCounterService&#10; * add simple test&#10; * added build jar configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
