@@ -36,7 +36,7 @@ public class UniqueIpCounter {
         return new BigInteger(bytesIp).intValue();
     }
 
-    public void addIp(Integer ip) {
+    private void addIp(Integer ip) {
         if (ip >= 0) {
             addIp(ip, positiveIpSet);
         } else {
