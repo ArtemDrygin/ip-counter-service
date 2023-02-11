@@ -1,18 +1,19 @@
 package org.example;
 
 import ip.counter.IpCounterService;
-import org.hamcrest.CoreMatchers;
-import org.junit.Assert;
 import org.junit.Test;
 
-import static org.hamcrest.CoreMatchers.*;
-import static org.junit.Assert.*;
+import java.io.File;
+import java.net.URISyntaxException;
+
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.junit.Assert.assertThat;
 
 
 public class IpCounterServiceTest {
     @Test
-    public void simpleTest() {
-        var filepath = getClass().getResource("/testIps").getPath();
+    public void simpleTest() throws URISyntaxException {
+        var filepath = new File(getClass().getResource("/testIps").toURI()).getAbsolutePath();
         var uniqueIpsCount = IpCounterService.INSTANCE.countIPs(filepath);
 
         assertThat(uniqueIpsCount, equalTo(4L));
